@@ -19,6 +19,7 @@
         <br>
         <p>Mi primera encuensta</p>
         <hr>
+        <form action="resultados.php" method="POST">
             <label for="fullName">Nombre:</label><br>
             <input type="text" id="fullName" name="fullName" value="Ingresa tu nombre"><br><br>
 
@@ -33,8 +34,8 @@
 
             <label for="currentPasstime">Pasatiempo Favorito:</label><br>
             <input type="text" id="currentPasstime" name="currentPasstime"><br><br>
-
-        <a href="resultados.html">
+        </form>
+        <a href="resultados.php">
             <button>¡Ingresamos Datos!</button>
         </a>
     </div>
